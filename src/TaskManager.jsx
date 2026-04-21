@@ -192,7 +192,8 @@ function TaskManager() {
     );
 
   return (
-    <div style={{ padding: "20px" }}>
+   <div className="container d-flex justify-content-center">
+         <div className="card p-4 shadow bg-info-subtle" style={{ width: "600px" }}>
       <h1>Task Manager</h1>
 
       {/* INPUT */}
@@ -330,6 +331,7 @@ function TaskManager() {
           </div>
         </div>
       ))}
+      </div>
     </div>
   );
 }
